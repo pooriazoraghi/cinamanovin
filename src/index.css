@@ -1,0 +1,25 @@
+
+@font-face {
+  font-family: 'iransansdn';
+  font-style: normal;
+  font-weight: normal;
+  src: local('iransansdn'), url("./fonts/iransansdn.ttf") format("truetype");
+}
+
+* {
+  font-family: iransansdn !important;
+  margin: 0px;
+  padding: 0px;
+  font-size: 17px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea {
+  font-family: iransansdn !important;
+}
